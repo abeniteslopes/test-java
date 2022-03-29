@@ -1,10 +1,15 @@
 ### Services available 
 
 Port config:9000
+
 Path: /product
+
 Create(Post): http://localhost:9000/product json
+
 Update(Put): http://localhost:9000/product/{sku} + json
+
 findBySKU(Get): http://localhost:9000/product/{sku}
+
 delete(Delete): http://localhost:9000/product/{sku}
 
 ### Backend Test
